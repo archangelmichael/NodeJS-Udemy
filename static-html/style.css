@@ -68,3 +68,27 @@ ul > li {
     display: block;
     margin: auto;
 }
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-3 {
+    width: 25%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    border: 2px solid red;
+    padding: 10px;
+}
