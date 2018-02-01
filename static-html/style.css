@@ -29,3 +29,20 @@ ul > li {
     box-shadow: 1px 1px black;
     text-shadow: 1px 1px black;
 }
+
+.background {
+    background-image: url(superman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:  center;
+}
+
+.size {
+    display: block;
+    height: 300px;
+    width: 500px;
+}
+
+.border {
+    border: 1px double red;
+}
