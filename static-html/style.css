@@ -2,23 +2,23 @@ ul > li {
     color: #00ff00;
 }
 
-#unique-div {
+#select-by-id {
     background-color: green;
     text-align: center;
 }
 
-.unique-div {
+.select-by-class {
     background: linear-gradient(to left, #00ccff, #00ff00);
     text-align: center;
     color: white;
 }
 
 .color1 {
-    color: aqua;
+    color: peru;
 }
 
 .color2 {
-    color: #000000;
+    color: #aa00c0;
 }
 
 .color3 {
