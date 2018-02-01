@@ -1,3 +1,31 @@
 ul > li {
+    color: #00ff00;
+}
+
+#unique-div {
+    background-color: green;
+    text-align: center;
+}
+
+.unique-div {
+    background: linear-gradient(to left, #00ccff, #00ff00);
+    text-align: center;
+    color: white;
+}
+
+.color1 {
     color: aqua;
+}
+
+.color2 {
+    color: #000000;
+}
+
+.color3 {
+    color: rgba(0, 234, 231, 0.5);
+}
+
+.shadow {
+    box-shadow: 1px 1px black;
+    text-shadow: 1px 1px black;
 }
